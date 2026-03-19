@@ -1,0 +1,300 @@
+ 
+National List 
+of Essential 
+Medicines 
+2022 
+----------------Page (0) Break----------------
+                             Table of Contents  
+Sections of Drug Classes Section 1 Medicines used in Anaesthesia ............................................................................ 3
+Section 2 Analgesics, Antipyretics, Non-steroidal Anti-inflammatory                                                       Drugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders ............................................................................. 6
+Section 3 Antiallergics and Medicines used in Anaphylaxis ............................................... 9Section 4 Antidotes and Other Substances used in Management of Poisonings/Envenomation ................................................................................. 11
+Section 5  Medicines used in Neurological Disorders ....................................................... 13Section 6 Anti-infective Medicines .................................................................................... 18
+Section 7 Anti-cancer agents including Immunosuppressives and Medicines used in Palliative Care .................................................................................................... 37Section 8 Medicines affecting Blood ................................................................................. 45
+Section 9 Blood products and Plasma substitutes .............................................................. 47Section 10 Cardiovascular Medicines ................................................................................ 49
+Section 11 Dermatological Medicines (Topical) ............................................................... 54Section 12 Diagnostic agents ............................................................................................. 56
+Section 13 Dialysis components (Haemodialysis and Peritoneal Dialysis) ...................... 57Section 14 Antiseptics and Disinfectants ........................................................................... 57
+Section 15 Diuretics ........................................................................................................... 58Section 16 Ear, Nose and Throat Medicines ...................................................................... 59
+Section 17 Gastrointestinal Medicines ............................................................................... 60Section 18 Hormones, other Endocrine Medicines and Contraceptives ............................ 63
+----------------Page (1) Break----------------
+Section 19 Immunologicals ................................................................................................ 67Section 20 Medicines for Neonatal Care ........................................................................... 70
+Section 21 Ophthalmological Medicines ........................................................................... 71Section 22 Oxytocics and Antioxytocics ........................................................................... 73
+Section 23 Medicines used in treatment of Psychiatric Disorders..................................... 74Section 24 Medicines acting on the Respiratory tract ....................................................... 78
+Section 25 Solutions correcting Water, Electrolyte disturbances  and Acid-base disturbances...................................................................................................... 80Section 26 Vitamins and Minerals ..................................................................................... 81
+Section 27 Medicines for COVID 19 management ......................................................... 82Alphabetical List  of Medicines in NLEM 2022 ............................................................... 84
+Medicines Added Therapeutic category wise in  NLEM 2022 ....................................... 101Alphabetical List of Medicines Added to NLEM 2022 ................................................... 113
+Medicines Deleted from  Therapeutic category wise  NLEM 2015 ................................ 116Alphabetical List of Medicines Deleted from NLEM 2015 ............................................ 127
+INDEX 130
+----------------Page (2) Break----------------
+Section 1 Medicines used in Anaesthesia 
+1.1- General Anaesthetics and Oxygen 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+1.1.1    Halothane          S,T        Liquid for inhalation 1.1.2    Isoflurane          S,T        Liquid for inhalation 
+1.1.3    Ketamine          P,S,T Injection 10 mg/mL Injection 50 mg/mL 
+1.1.4    Nitrous oxide       P,S,T      As licensed for medical purpose 
+1.1.5    Oxygen*           P,S,T      As licensed for medical purpose 
+1.1.6    Propofol           P,S,T      Injection 10 mg/mL 
+1.1.7    Sevoflurane         S,T        Liquid for inhalation 
+1.1.8    Thiopentone        P,S,T Powder for injection 0.5 g Powder for injection 1 g 
+*Oxygen is also listed in Section 27.5 - Medicines for COVID 19 management  
+----------------Page (3) Break----------------
+1.2-Local Anaesthetics 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+1.2.1    Bupivacaine        S,T Injection 0.25 % Injection 0.5 % Injection 0.5 % with 7.5 % glucose 
+1.2.2    Lignocaine*        P,S,T Topical forms 2-5 % Injection 1 % Injection 2 %  Injection 5 % with 7.5 % glucose  
+1.2.3 Lignocaine (A) + Adrenaline (B) P,S,T Injection 1% (A) + 1:200000  (5 mcg/mL) (B) Injection 2% (A) + 1:200000  (5 mcg/mL) (B) 
+1.3- Preoperative Medication and Sedation for Short Term Procedures 
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+1.3.1    Atropine**         P,S,T Injection 0.6 mg/mL 
+*Lignocaine formulations are also listed in Section 10.2.5 cardiovascular medicines-Antiarrhythmic medicines  **Atropine formulations are also listed in -  
+A. Section 4.2.1 - Antidotes and Other Substances used in Management of Poisonings/Envenomation -  Specific B. Section 21.5.1 - Ophthalmological Medicines- Mydriatics  
+----------------Page (4) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 1.3.2    Glycopyrrolate      S,T        Injection 0.2 mg/mL 
+1.3.3    Midazolam*        P,S,T Tablet 7.5 mg Nasal Spray 0.5mg Nasal Spray 1.25 mg Injection 1 mg/mL Injection 5 mg/mL 
+1.3.4    Morphine**        P,S,T Injection 10 mg/mL Injection 15 mg/mL 
+Section 1.4 -Muscle Relaxants and Cholinesterase Inhibitors 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 1.4.1    Atracurium         S,T        Injection 10 mg/mL 
+1.4.2    Baclofen           S,T Tablet  5 mg Tablet 10 mg Tablet 20 mg 
+*Midazolam formulations are also listed in - A. Section 5.1.7- Medicines used in Neurological Disorders  Anticonvulsants/ Antiepileptics  B. Section 7.4.12- Anti-cancer agents including Immunosuppressives, and Medicines used in Palliative Care 
+ **Morphine formulations are also listed in - A. Section 2.2.2- Analgesics, Antipyretics, Non-steroidal Anti-inflammatory Drugs (NSAIDs), 
+Medicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders - Opioid Analgesics B. Section 7.4.13 - Anti-cancer agents including immunosuppressives, and medicines used in Palliative Care  
+----------------Page (5) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+1.4.3    Neostigmine*       S,T Tablet 15 mg Injection 0.5 mg/mL 
+1.4.4    Succinylcholine      S,T        Injection 50 mg/mL 
+1.4.5    Vecuronium        S,T Powder for injection   4 mg Powder for injection 10 mg 
+Section 2 Analgesics, Antipyretics, Non-steroidal Anti-inflammatory                                                       Drugs (NSAIDs), Medicines used to treat Gout and Disease 
+Modifying Agents used in Rheumatoid Disorders  
+2.1 - Non-opioid Analgesics, Antipyretics and Non-steroidal Anti- inflammatory Drugs 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.1.1 Acetylsalicylic acid** P,S,T  Tablet 300 mg to 500 mg Effervescent/ Dispersible/ Enteric coated Tablet 300 mg to 500 mg  
+*Neostigmine formulations are also listed in Section 4.2.8 - Antidotes and Other substances used in Management of poisoning/Envenomation - Specific  **Acetylsalicylic acid formulations are also listed in - 
+A. Section 5.2.1 - Medicines used in Neurological Disorders Antimigraine medicines  B. Section 10.5.1 - Cardiovascular medicines -Antithrombotic Medicines (Cardiovascular/ Cerebrovascular) - Antiplatelet and Antithrombotic Medicines  
+----------------Page (6) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.1.2    Diclofenac         P,S,T Tablet 50 mg Injection 25 mg/mL 
+2.1.3    Ibuprofen*         P,S,T Tablet 200 mg Tablet 400 mg Oral liquid 100 mg/5 mL (p) 
+2.1.4    Mefenamic acid      P,S,T Tablet 250 mg Oral liquid 100 mg/5 mL (p) 
+2.1.5    Paracetamol**       P,S,T 
+Tablet 500 mg Tablet 650 mg Oral liquid 120 mg/5 mL (p) 
+Oral Liquid 125 mg/5 mL (p) Oral Liquid 250 mg/5 mL (p) Injection 150 mg/ mL 
+Suppository 80 mg Suppository 170 mg 
+2.2-Opioid Analgesics 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.2.1    Fentanyl           S,T        Injection 50 mcg/mL *Ibuprofen formulations are also listed in Section 5.2.2 - Medicines used in Neurological 
+Disorders-Antimigraine Medicines  ** Paracetamol formulations are also listed in -  A. Section 5.2.3 - Medicines used in Neurological Disorders-Antimigraine Medicines  
+B. Section 27.4 - Medicines for COVID 19 Management  
+----------------Page (7) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.2.2    Morphine*         P,S,T Tablet 10 mg Injection 10 mg/mL Injection 15 mg/mL 
+2.2.3    Tramadol**        S,T Capsule  50 mg Capsule 100 mg Injection 50 mg/mL 
+2.3-Medicines used to treat Gout 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.3.1    Allopurinol***      P,S,T Tablet 100 mg Tablet 300 mg 
+2.3.2    Colchicine         P,S,T       Tablet 0.5 mg 
+*Morphine formulations are also listed in - A. Section 1.3.4 - Medicines used in Anaesthesia - Preoperative medication and sedation for short term procedures  B. Section 7.4.13 - Anti-cancer agents including Immunosuppressives, and Medicines used in 
+Palliative Care  ** Tramadol formulations are also listed in  Section 7.4.15 - Tramadol formulations are also listed in Anti-cancer agents including 
+Immunosuppressives, and Medicines used in Palliative Care   *** Allopurinol formulations are also listed in  Section 7.4.1 - Allopurinol formulations are also listed in Anti-cancer agents including 
+Immunosuppressives, and Medicines used in Palliative Care  
+----------------Page (8) Break----------------
+2.4-Disease Modifying Agents used in Rheumatoid Disorders 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+2.4.1    Azathioprine*       S,T Tablet 25 mg (p) Tablet 50 mg 
+2.4.2    Hydroxychloroquine  P,S,T Tablet 200 mg Tablet 400 mg 
+2.4.3    Methotrexate**      P,S,T Tablet 2.5 mg Tablet 5 mg Tablet 10 mg  
+2.4.4    Sulfasalazine        S,T 
+ 
+Tablet 500 mg Section 3 
+Antiallergics and Medicines used in Anaphylaxis 
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+3.1      Adrenaline         P,S,T       Injection 1 mg/mL 
+3.2      Cetirizine          P,S,T Tablet 10 mg Oral liquid 5 mg/5 mL (p) 
+*  Azathioprine formulations are also listed in Section 7.3.1 - Anti-cancer agents including  Immunosuppressives, and Medicines used in Palliative Care ** Methotrexate formulations are also listed in Section 7.1.30 -  Anti-cancer agents including  
+Immunosuppressives, and Medicines used in Palliative Care 
+----------------Page (9) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+3.3      Dexamethasone*     P,S,T Tablet 0.5 mg Tablet 2 mg Tablet 4 mg Oral liquid 0.5 mg/5 mL (p) Injection 4 mg/mL 
+3.4      Hydrocortisone**    P,S,T Tablet 5 mg Tablet 10 mg Powder for Injection 100 mg Powder for Injection 200 mg 
+3.5      Pheniramine        P,S,T       Injection 22.75 mg/mL 
+3.6      Prednisolone***     P,S,T Tablet 5 mg Tablet 10 mg Tablet 20 mg Oral liquid   5 mg/5 mL (p) Oral liquid 15 mg/5 mL (p) 
+*Dexamethasone formulations are also listed in - A. Section 7.4.3 - Anti-cancer agents including  Immunosuppressives, and Medicines used in Palliative Care  B. Section 18.1.1 - Hormones, other Endocrine Medicines and Contraceptives - Adrenal 
+Hormones and Synthetic Substitutes  C. Section 27.1 - Medicines for COVID 19 Management  ** Hydrocortisone formulations are also listed in Section 18.1.3 -  Hormones, other Endocrine Medicines and Contraceptives- Adrenal Hormones and Synthetic Substitutes  
+***Prednisolone formulations are also listed in - A. Section 7.2.4 - Anti-cancer agents including  Immunosuppressives, and Medicines used in Palliative Care  - Hormones and Anti-Hormones used in cancer therapy  B. Section 18.1.5 - Hormones, other Endocrine Medicines and Contraceptives -Adrenal 
+Hormones and Synthetic Substitutes  C. Section 21.2.1 - Ophthalmological Medicines- Anti-inflammatory Medicine  
+----------------Page (10) Break----------------
+Section 4 Antidotes and Other Substances used in Management of Poisonings/Envenomation  
+4.1-Nonspecific  Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 4.1.1    Activated Charcoal   P,S,T       Powder (as licensed) 
+4.2 Specific  
+Medicine Level of Healthcare Dosage form(s) and strength(s) 4.2.1    Atropine*          P,S,T Injection 0.6 mg/mL  
+4.2.2    Calcium gluconate** P,S,T       Injection 100 mg/mL 
+4.2.3    D- Penicillamine     P,S,T Capsule 150 mg (p) Capsule 250 mg 
+4.2.4    Desferrioxamine     S,T        Powder for injection 500 mg 
+4.2.5 Methylthioninium chloride  (Methylene blue) S,T        Injection 10 mg/mL 
+*Atropine formulations are also listed in - A. Section 1.3.1 - Medicines used in Anaesthesia -Preoperative Medication and Sedation for short term procedures  B. Section 21.5.1 - Ophthalmological Medicines- Mydriatics 
+** Calcium gluconate formulations are also listed in Section 26.3 -  Vitamins and minerals  
+----------------Page (11) Break----------------
+ Medicine Level of Healthcare Dosage form(s) and strength(s) 
+4.2.6    N-acetylcysteine     P,S,T Sachet 200 mg Injection 200 mg/mL 
+4.2.7    Naloxone          P,S,T       Injection 0.4 mg/mL 4.2.8    Neostigmine*       P,S,T       Injection 0.5 mg/mL 
+4.2.9 Pralidoxime chloride (2-PAM) P,S,T       Injection 25 mg/mL 
+4.2.10 Snake venom antiserum** P,S,T Soluble/ liquid polyvalent -  As licensed Lyophilized polyvalent -  As licensed 
+4.2.11    Sodium nitrite       S,T        Injection 30 mg/mL 
+4.2.12    Sodium thiosulphate  S,T        Injection 250 mg/mL 
+ * Neostigmine formulations are also listed in Section 1.4.3 - Medicines used in Anaesthesia -  
+Muscle relaxants and cholinesterase inhibitors  ** Snake Venom antiserum is also listed in Section 19.2.7. - Immunologicals -  
+Sera and immunoglobulins (Liquid/ Lyophilized) 
+----------------Page (12) Break----------------
+Section 5  Medicines used in Neurological Disorders 
+Section 5.1-Anticonvulsants/ Antiepileptics     Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 
+5.1.1    Carbamazepine*     P,S,T 
+Tablet 100 mg Tablet 200 mg Tablet 400 mg 
+Modified Release - Tablet 200 mg Tablet 400 mg 
+Oral liquid 100 mg/5 mL (p) 5.1.2    Clobazam          S,T Tablet 5 mg 
+Tablet 10 mg 
+5.1.3    Diazepam**        P,S,T Oral liquid 2 mg/5 mL (p) Injection 5 mg/mL Suppository 5 mg 
+5.1.4    Levetiracetam       S,T Tablet 250 mg Tablet 500 mg Tablet 750 mg Modified Release Tablet 750 mg Oral liquid 100 mg/mL (p) Injection 100 mg/mL 
+5.1.5    Lorazepam         P,S,T Tablet 1 mg Tablet 2 mg Injection 2 mg/mL Injection 4 mg/mL 
+*Carbamazepine formulations are also listed in Section 23.2.2.3  Medicines used in treatment of Psychiatric disorder - Medicines used in Bipolar disorders ** Diazepam formulations are also listed in Section 7.4.4 - Anti-cancer agents including Immunosuppressives, and Medicines used in Palliative Care - Medicines used in Palliative 
+Care 
+----------------Page (13) Break----------------
+    Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.1.6    Magnesium sulphate  S,T        Injection 500 mg/mL 
+5.1.7    Midazolam*        P,S,T Tablet 7.5 mg Tablet 15 mg Nasal Spray 0.5 mg/actuation Nasal Spray 1.25 mg/actuation Injection 1 mg/mL Injection 5 mg/mL 
+ 5.1.8  Phenobarbitone P,S,T Tablet 30 mg Tablet 60 mg Oral liquid 20 mg/5 mL (p) 
+S,T        Injection 200 mg/mL 
+5.1.9    Phenytoin          P,S,T 
+Tablet 50 mg Tablet 100 mg Tablet 300 mg   
+Modified Release Tablet 300 mg Oral liquid 30 mg/5 mL (p) Oral liquid 125 mg/5 mL (p) 
+Injection 25 mg/mL Injection 50 mg/mL 
+*Midazolam formulations are also listed in - A. Section 1.3.3 - Medicines used in Anaesthesia - Preoperative Medication and Sedation for short term procedures  B. Section 7.4.12 - Anti-cancer agents including Immunosuppressives, and Medicines used in 
+Palliative Care - Medicines used in Palliative Care
+----------------Page (14) Break----------------
+    Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.1.10 Sodium Valproate* P,S,T 
+Tablet 200 mg Tablet 300 mg  Tablet 500 mg 
+Modified Release - Tablet 300 mgTablet 500 mg 
+Oral liquid 200 mg/5 mL (p) S,T        Injection 100 mg/mL 
+Section 5.2- Antimigraine Medicines 
+    Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.2.1 Acetylsalicylic acid** P,S,T Tablet 300 mg to 500 mg Effervescent/ Dispersible/ Enteric coated Tablet 300 mg to 500 mg 
+ *Sodium Valproate formulations are also listed in-  Section 23.2.2.2 - Medicines used in treatment of Psychiatric Disorders -Medicines used in Bipolar disorders- Medicines used in mood disorders  
+**Acetylsalicyclic acid formulations are also listed in - A. Section 2.1.1 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory                                                       Drugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders - Non-opioid Analgesics, Antipyretics and Non-steroidal Anti- 
+inflammatory Drugs B. Section 10.5.1 - Cardiovascular medicines- Antiplatelet and Antithrombotic Medicines 
+----------------Page (15) Break----------------
+    Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.2.2    Ibuprofen*         P,S,T Tablet 200 mg Tablet 400 mg Oral liquid 100 mg/5 mL (p) 
+5.2.3    Paracetamol**       P,S,T Tablet 500 mg Tablet 650 mg Oral liquid   120 mg/5mL (p) Oral Liquid 125 mg/5mL (p) Oral Liquid 250 mg/5mL (p) 
+5.2.4    Sumatriptan        P,S,T Tablet 25 mg Tablet 50 mg 
+Section 5.2.1 - For Prophylaxis 
+5.2.1.1   Amitriptyline*** P,S,T Tablet 10 mg Tablet 25 mg Tablet 75 mg  *Ibuprofen formulations are also listed in Section 2.1.3 - Analgesics, Antipyretics, Non-
+steroidal Anti-inflammatory Drugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders Non-opioid Analgesics, Antipyretics and Non-steroidal Anti- inflammatory Drugs  
+**Paracetamol formulations are also listed in - A. Section 2.1.5 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory                                                       Drugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders - Non-opioid analgesics, antipyretics and nonsteroidal anti-
+inflammatory medicines B. Section 27.4  - Medicines for COVID 19 management   *** Amitriptyline formulations are also listed in - 
+A. Section 7.4.2 - Anti-cancer agents including Immunosuppressives, and Medicines used in Palliative Care - Medicines used in Palliative Care- B. Section 23.2.1.1 - Medicines used in treatment of Psychiatric Disorders -Medicines used in mood disorders- Medicines used in depressive disorders 
+----------------Page (16) Break----------------
+      Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.2.1.2   Flunarizine         P,S,T Tablet  5 mg Tablet 10 mg 
+5.2.1.3   Propranolol         P,S,T Tablet 10 mg Tablet 20 mg Tablet 40 mg 
+Section 5.3- Antiparkinsonism Medicines 
+      Medicine Level of Healthcare Dosage form(s) and strength(s) 
+5.3.1 Levodopa (A) +  Carbidopa (B) P,S,T 
+Tablet 100 mg (A) + 10 mg (B) Tablet 100 mg (A) + 25 mg (B)  Tablet 250 mg (A) + 25 mg (B) 
+Modified Release - Tablet 100 mg (A) + 25 mg (B) Tablet 200 mg (A) + 50 mg (B) 
+5.3.2    Trihexyphenidyl     P,S,T      Tablet 2 mg 
+Section 5.4-Medicines used in Dementia       Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 5.4.1    Donepezil          S,T Tablet  5 mg 
+Tablet 10 mg 
+----------------Page (17) Break----------------
+Section 6 Anti-infective Medicines 
+6.1-Anthelminthics 
+6.1.1- Intestinal Anthelminthics 
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.1.1.1   Albendazole*       P,S,T Tablet 400 mg Chewable Tablet 400 mg Oral liquid 200 mg/5 mL (p) 
+6.1.1.2   Mebendazole        P,S,T Tablet 100 mg Oral liquid 100 mg/5 mL (p) 6.1.2  Antifilarial 
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.1.2.1 Albendazole* P,S,T Tablet 400 mg Chewable Tablet 400 mg Oral liquid 200 mg/5 mL (p) 
+6.1.2.2 Diethylcarbamazine (DEC) P,S,T Tablet   50 mg Tablet 100 mg Oral liquid 120 mg/5 mL (p) 
+* Albendazole formulations are also listedSection 6.1.1.1 -in Anti-infective Medicines-Antifilarial  
+----------------Page (18) Break----------------
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.1.2.3   Ivermectin         P,S,T Tablet 6 mg Tablet 12 mg 
+6.1.3 - Anti-schistosomal and Anti-trematodal Medicine   Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 6.1.3.1   Praziquantel        S,T        Tablet 600 mg 
+6.2-Antibacterials 6.2.1  Beta-lactam Medicines 
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.2.1.1   Amoxicillin         P,S,T 
+Capsule 250 mg Capsule 500 mg Oral liquid 125 mg/5 mL (p) 
+Oral liquid 250 mg/5 mL (p) Powder for Injection 250 mg Powder for Injection 500 mg 
+Powder for injection 1000 mg 
+6.2.1.2 Amoxicillin (A) + Clavulanic acid (B) P,S,T 
+Tablet 500 mg (A) + 125 mg (B)  Oral liquid 200 mg (A) + 28.5 mg (B)/5 mL (p) 
+Dry Syrup 125 mg (A) + 31.25 (B)/  5 mL (p) 
+S,T Powder for Injection 500 mg (A) + 100 mg (B) Powder for Injection 1 g (A) + 200 mg (B) 
+----------------Page (19) Break----------------
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.2.1.3   Ampicillin         P,S,T Powder for Injection 500 mg  Powder for Injection 1000 mg 
+6.2.1.4 Benzathine benzylpenicillin P,S,T Powder for Injection 6 lac units Powder for Injection 12 lac units Powder for injection 24 lac units 
+6.2.1.5   Benzylpenicillin     P,S,T Powder for injection 5 lac units Powder for injection 10 lac units 
+6.2.1.6   Cefadroxil          P,S,T Tablet 500 mg Tablet 100 mg Oral liquid 125 mg/5 mL (p) 
+6.2.1.7   Cefazolin          P,S,T Powder for Injection 500 mg Powder for Injection 1000 mg 
+6.2.1.8   Cefixime          S,T Tablet 200 mg Tablet 400 mg Oral liquid 50 mg/5 mL (p) Oral liquid 100 mg/5 mL (p) 
+6.2.1.9   Cefotaxime*        S,T Powder for Injection 250 mg  Powder for Injection 500 mg  Powder for Injection 1000 mg 
+*Cefotaxime formulations are also listed in Section 6.7.5.2 - Anti-infective Medicines- Antiviral Medicines- Medicines for treating Opportunistic Infections in People living with HIV  
+----------------Page (20) Break----------------
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.2.1.10  Ceftazidime        S,T Powder for Injection 250 mg  Powder for Injection 1000 mg 
+6.2.1.11  Ceftriaxone         S,T Powder for Injection 250 mg  Powder for Injection 500 mg  Powder for Injection 1000 mg  Powder for Injection 2000 mg 
+6.2.1.12  Cloxacillin         P,S,T Capsule 250 mg Capsule 500 mg Oral Liquid 125 mg/5 mL (p) Powder for Injection 250 mg 
+6.2.1.13 Piperacillin (A) + Tazobactam (B) T Powder for Injection 1000 mg (A) + 125 mg (B) Powder for Injection 2000 mg (A) + 250 mg (B) Powder for Injection 4000 mg (A) + 500 mg (B) 
+6.2.1.14  Meropenem         T Powder for Injection 500 mg (as trihydrate) Powder for Injection 1000 mg (as trihydrate)  
+6.2.2 - Other Antibacterials        Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 6.2.2.1   Azithromycin*      P,S,T Tablet 250 mg Tablet 500 mg 
+Oral liquid 200 mg/5 mL (p) Powder for Injection 500 mg 
+6.2.2.2   Cefuroxime         P,S,T  Tablet 500 mg Oral liquid 125 mg/ 5 mL (p) Injection 1500 mg  *Azithromycin formulations are also listed in Section 6.7.6.1 Anti-infective Medicines -
+Medicines used in the management of HIV- Additional Medicines for Syndromic Management of Sexually Transmitted Infections  
+----------------Page (21) Break----------------
+  Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.2.2.3   Ciprofloxacin*      P,S,T Tablet 250 mg Tablet 500 mg Oral liquid 250 mg/ 5 mL (p) Injection 200 mg/ 100 mL 
+6.2.2.4   Clarithromycin**    S,T Tablet 250 mg Tablet 500 mg Oral liquid 125 mg/5 mL (p) 
+6.2.2.5   Clindamycin***     P,S,T Capsule 150 mg Capsule 300 mg Injection 150 mg /mL 
+6.2.2.6 Co-trimoxazole [Sulphamethoxazole (A) + Trimethoprim (B)]**** P,S,T Tablet 400 mg (A) + 80 mg (B) Tablet 800 mg (A) + 160 mg (B) Oral liquid 200 mg (A) + 40 mg  (B)/5 mL (p) 
+* Ciprofloxacin formulations are also listed in -  A. Section 16.2 - Ear, Nose and ThroatMedicines,  B. Section 21.1.2 - Ophthalmological Medicines- Anti-infective Medicines,  
+** Clarithromycin formulations are also listed in Section 6.4.3  - Anti-infective medicines-  Anti-tuberculosis Medicines  ***Clindamycin formulations are also listed in - 
+A. Section 6.7.5.3 - Anti-infective Medicines- Antiviral Medicines- Medicines for treating Opportunistic Infections in People living with HIV  B. Section 6.9.3.1 - Anti-infective Medicines- Drugs for amoebiasis and other parasitic infections -Antipneumocystosis and antitoxoplasmosis medicines  
+C. Section 6.10.1.5 - Anti-infective Medicines- Antimalarial medicines- For curative treatment  **** Co-trimoxazole formulations are also listed in Section 6.9.3.2 - Anti-infective 
+Medicines- Medicines for amoebiasis and other parasitic infections -Antipneumocystosis and antitoxoplasmosis medicines  
+----------------Page (22) Break----------------
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.2.2.7   Doxycycline*       P,S,T Capsule 100 mg Dry Syrup 50 mg/5 mL (p) Power for Injection 100 mg 
+6.2.2.8   Gentamicin         P,S,T Injection 10 mg/mL Injection 40 mg/mL 
+6.2.2.9   Metronidazole**     P,S,T Tablet 200 mg Tablet 400 mg Oral liquid 200 mg/5 mL (p) Injection 500 mg/100 mL 
+6.2.2.10  Nitrofurantoin       P,S,T  Tablet 100 mg Oral liquid 25 mg/5 mL (p) 
+6.2.2.11 Phenoxymethyl penicillin P,S,T      Tablet 250 mg 
+6.2.2.12 Procaine Benzylpenicillin P,S,T Powder for injection  1000 mg (=1 million IU) 
+6.2.2.13  Vancomycin        S,T  Capsule 125 mg Capsule 250 mg Powder for Injection 250 mg Powder for Injection 500 mg  Powder for Injection 1000 mg 
+*Doxycycline formulations are also listed in Section 6.10.2.1 - Anti-infective Medicines- Antimalarial medicines- For prophylaxis  **Metronidazole formulations are also listed in Section 6.9.1.1 - Anti-infective Medicines - Antiprotozoal Medicines - Medicines for amoebiasis and other parasitic infections  
+----------------Page (23) Break----------------
+6.3 - Antileprosy Medicines        Medicine Level of 
+Healthcare Dosage form(s) and strength(s) 6.3.1    Clofazimine*       P,S,T Capsule 50 mg Capsule 100 mg 
+6.3.2    Dapsone           P,S,T Tablet 50 mg Tablet 100 mg 
+6.3.3    Rifampicin**       P,S,T Capsule 150 mg Capsule 300 mg 
+6.4-Antituberculosis Medicines  
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.4.1    Amikacin           S,T Injection 100 mg/mL Injection 250 mg/mL Injection 500 mg/mL 
+6.4.2    Bedaquiline          T         Tablet 100 mg 
+6.4.3    Clarithromycin***    S,T Tablet 250 mg  Tablet 500 mg  Tablet 750 mg 
+*Clofazimine formulations are also listed Section 6.4.5 - Anti-infective Medicines -  Anti-tuberculosis medicines   
+**Rifampicin formulations are also listed in Section 6.4.15 - Anti-infective Medicines - Anti-tubercular medicine  ***Clarithromycin formulations are also listed in Section 6.2.2.4 -  Anti-infective Medicines- 
+Antibacterials -Other Antibacterials   
+----------------Page (24) Break----------------
+       Medicine Level of Healthcare Dosage form(s) and strength(s) 
+6.4.4    Clofazimine*       S,T Capsule 50 mg Capsule 100 mg 
+6.4.5    Cycloserine         S,T Capsule 125 mg Capsule 250 mg 
+6.4.6    Delamanid         T         Tablet 50 mg 
+6.4.7    Ethambutol         P,S,T Tablet 200 mg Tablet 400 mg Tablet 600 mg Tablet 800 mg 
+6.4.8    Ethionamide        S,T Tablet 125 mg Tablet 250 mg 
+6.4.9    Isoniazid           P,S,T Tablet 100 mg Tablet 300 mg Oral Liquid 50 mg/5 mL (p) 
+6.4.10    Levofloxacin        P,S,T Tablet 250 mg Tablet 500 mg Tablet 750 mg 
+6.4.11    Linezolid          P,S,T Tablet 300 mg Tablet 600 mg 6.4.12    Moxifloxacin       P,S,T      Tablet 400 mg 
+*Clofazimine formulations are also listed in Section 6.3.1 - Anti-infective Medicines -  Antileprosy medicines  

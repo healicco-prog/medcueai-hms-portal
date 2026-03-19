@@ -1,0 +1,7 @@
+{
+  "name": "AIMSRC Medical Portal",
+  "description": "Comprehensive medical portal for AIMSRC featuring Prescription Audit, Formulary Check, and Pharmacovigilance Management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

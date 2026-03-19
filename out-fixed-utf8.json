@@ -1,0 +1,90 @@
+﻿{
+  "ai_recommendations": {
+    "alerts": [
+      {
+        "action_required": "Monitor BP, ensure adherence to Amlodipine, consider lifestyle modifications.",
+        "description": "Patient's BP is 138/88 mmHg, indicating Stage 1 Hypertension, which requires continued monitoring and management.",
+        "severity": "Moderate",
+        "type": "Clinical Monitoring"
+      },
+      {
+        "action_required": "Recommend weight management strategies and dietary counseling.",
+        "description": "Patient's BMI of 29 is classified as overweight, which can exacerbate knee osteoarthritis and other comorbidities like diabetes and hypertension.",
+        "severity": "Moderate",
+        "type": "Lifestyle/Risk Factor"
+      }
+    ],
+    "possible_diagnoses": [
+      {
+        "condition": "Right Knee Osteoarthritis",
+        "probability": "High",
+        "reasoning": "Patient presents with chronic right knee pain, worsening with activity, morning stiffness, mild swelling, crepitus, reduced range of motion, and X-ray findings of joint space narrowing and osteophyte formation, all consistent with osteoarthritis. This is also listed as a provisional diagnosis."
+      }
+    ],
+    "treatment_recommendations": [
+      {
+        "category": "Pharmacological Management (Osteoarthritis)",
+        "guideline_reference": "American College of Rheumatology (ACR) guidelines for OA",
+        "suggestion": "Consider initiating topical or oral NSAIDs for pain relief, taking into account patient's comorbidities (hypertension, diabetes). Acetaminophen can be considered as a first-line agent for mild to moderate pain."
+      },
+      {
+        "category": "Non-pharmacological Management (Osteoarthritis)",
+        "guideline_reference": "ACR guidelines for OA",
+        "suggestion": "Recommend physical therapy focusing on strengthening exercises for quadriceps and hamstrings, range of motion exercises, and pain management techniques."
+      },
+      {
+        "category": "Lifestyle Modifications",
+        "guideline_reference": "General medical guidelines for OA, diabetes, and hypertension",
+        "suggestion": "Advise weight loss to reduce mechanical stress on the knee joint, which can significantly improve OA symptoms and help manage diabetes and hypertension. Refer to a dietitian if appropriate."
+      },
+      {
+        "category": "Comorbidity Management",
+        "guideline_reference": "ADA (diabetes), ACC/AHA (hypertension, dyslipidemia) guidelines",
+        "suggestion": "Continue current medications for hypertension (Amlodipine), Type 2 Diabetes Mellitus (Metformin), and dyslipidemia (Atorvastatin). Ensure regular monitoring of blood glucose and blood pressure."
+      },
+      {
+        "category": "Further Management (Osteoarthritis)",
+        "guideline_reference": "ACR guidelines for OA",
+        "suggestion": "If conservative measures fail to provide adequate pain relief, consider intra-articular corticosteroid injections for acute pain flares."
+      }
+    ]
+  },
+  "extracted_data": {
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "current_diagnosis": [
+      "Right Knee Osteoarthritis",
+      "Hypertension for 8 years",
+      "Type 2 Diabetes Mellitus for 5 years",
+      "Overweight (BMI 29)"
+    ],
+    "demographics": "Suresh Kumar, 55 years, Male",
+    "lab_values": [
+      "X-ray right knee shows joint space narrowing and osteophyte formation."
+    ],
+    "medication_history": [
+      "Tab Metformin 500 mg twice daily",
+      "Tab Amlodipine 5 mg once daily",
+      "Tab Atorvastatin 10 mg once daily"
+    ],
+    "symptoms": [
+      "Pain in the right knee for the past 3 months, gradually worsening",
+      "Dull aching pain in the right knee that increases while walking, climbing stairs, and standing for long periods",
+      "Pain is worse in the morning and after prolonged activity",
+      "Mild swelling and stiffness lasting about 20 minutes in the morning",
+      "Crepitus on movement",
+      "Pain on flexion and extension",
+      "Reduced range of motion"
+    ],
+    "vital_signs": [
+      "Blood Pressure: 138/88 mmHg",
+      "Heart Rate: 82 bpm",
+      "Temperature: 98.6┬░F (37┬░C)",
+      "Respiratory Rate: 18/min",
+      "Oxygen Saturation: 98%"
+    ]
+  },
+  "missing_info_prompt": "",
+  "requires_more_info": false
+}

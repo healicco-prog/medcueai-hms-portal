@@ -1,0 +1,18 @@
+﻿{
+  "ai_recommendations": {
+    "alerts": [],
+    "possible_diagnoses": [],
+    "treatment_recommendations": []
+  },
+  "extracted_data": {
+    "allergies": [],
+    "current_diagnosis": [],
+    "demographics": "Not provided",
+    "lab_values": [],
+    "medication_history": [],
+    "symptoms": [],
+    "vital_signs": []
+  },
+  "missing_info_prompt": "Good to go, that you have entered the brief scenario. The probable clinical conditions could be various conditions depending on symptoms, unspecified medical issues, or general health concerns, but I require the following things:\n- Patient's chief complaint or presenting symptoms\n- Patient demographics (age, gender)\n- Relevant medical history, including allergies and current medications\n- Vital signs and any recent lab results\n\nIf further information is provided with regards to the points I share, I can give a better suggestion.",
+  "requires_more_info": true
+}
