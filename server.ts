@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import { createServer as createViteServer } from "vite";
 import path from "path";
@@ -305,10 +307,13 @@ db.transaction(() => {
 })();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || '*',
+  credentials: true
+}));
 app.use(express.json({ limit: '50mb' }));
 
-const PORT = 3005;
+const PORT = parseInt(process.env.PORT || '3005');
 const JWT_SECRET = process.env.JWT_SECRET || "aimsrc_secret_key_2026";
 
 const authenticateToken = (req: any, res: any, next: any) => {
