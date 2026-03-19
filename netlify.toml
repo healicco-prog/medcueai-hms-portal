@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://hms-backend-5xxgpx4f2pa-el.a.run.app/api/:splat"
+  to = "https://hms-backend-5xgpx4f2pa-el.a.run.app/api/:splat"
   status = 200
   force = true
 

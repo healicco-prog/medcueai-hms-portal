@@ -108,7 +108,7 @@ const App = () => {
 };
 
 const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [permissions, setPermissions] = useState<Record<string, string[]>>({});
   const location = useLocation();
 
@@ -153,9 +153,9 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
     { name: 'Prescription Audit', path: '/prescription-audit', icon: ClipboardList, isVisible: hasFeature('Prescription Audit'), isIndented: true },
     { name: 'Prescription Audit Report- Consolidated', path: '/pre-audit-report', icon: FileText, isVisible: hasFeature('Prescription Audit Report'), isIndented: true },
     
-    { name: 'Med Error: Medication Error Audit tool', isHeader: true, isVisible: hasFeature('Medication Error Audit') || hasFeature('Prescription Upload') },
-    { name: 'Prescription Upload', path: '/prescription-upload-error', icon: Upload, isVisible: hasFeature('Prescription Upload'), isIndented: true },
-    { name: 'Prescription Audit', path: '/prescription-audit-error', icon: ClipboardList, isVisible: hasFeature('Medication Error Audit'), isIndented: true },
+    { name: 'Med Error: Medication Error Audit tool', isHeader: true, isVisible: hasFeature('Med Error Prescription Upload') || hasFeature('Med Error Prescription Audit') || hasFeature('Medication Error Audit') },
+    { name: 'Prescription Upload', path: '/prescription-upload-error', icon: Upload, isVisible: hasFeature('Med Error Prescription Upload'), isIndented: true },
+    { name: 'Prescription Audit', path: '/prescription-audit-error', icon: ClipboardList, isVisible: hasFeature('Med Error Prescription Audit'), isIndented: true },
     { name: 'Medication Error Audit', path: '/med-error-audit', icon: Activity, isVisible: hasFeature('Medication Error Audit'), isIndented: true },
     
     { name: 'Practice Management System', isHeader: true, isVisible: hasFeature('Digital Prescription System') || hasFeature('Patient Triage') || hasFeature('CDS tools') },
@@ -168,47 +168,53 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
     { name: 'Formulary Check', path: '/formulary-check', icon: Search, isVisible: hasFeature('Formulary Check'), isIndented: true },
     
     // --- Institute Admin Features ---
-    { name: 'Institute Admin Features', isHeader: true, color: 'text-purple-400', isVisible: ['INSTITUTION_ADMIN', 'MASTER_ADMIN'].includes(user.role) },
+    { name: 'Institute Admin Features', isHeader: true, color: 'text-purple-400', isVisible: hasFeature('Data Upload') || hasFeature('Institute Admin User Management') },
     
     { name: 'Data Upload', path: '/departments', icon: Building, isVisible: hasFeature('Data Upload'), isIndented: true },
-    { name: 'Institute Admin User Management', path: '/users-institute', icon: Building, isVisible: ['INSTITUTION_ADMIN', 'MASTER_ADMIN'].includes(user.role), isIndented: true },
+    { name: 'Institute Admin User Management', path: '/users-institute', icon: Building, isVisible: hasFeature('Institute Admin User Management'), isIndented: true },
 
     // --- Master Admin Features ---
     { name: 'Master Admin Features', isHeader: true, color: 'text-rose-400', isVisible: user.role === 'MASTER_ADMIN' },
     { name: 'Master Admin User Management', path: '/users-master', icon: Shield, isVisible: user.role === 'MASTER_ADMIN', isIndented: true },
-    { name: 'List of Medical Colleges', path: '/medical-colleges', icon: Building, isVisible: user.role === 'MASTER_ADMIN', isIndented: true },
   ];
 
   const filteredNavItems = navItems.filter(item => item.isVisible);
 
   return (
     <div className="flex h-screen bg-slate-50 overflow-hidden print:h-auto print:block print:overflow-visible">
+      {/* Sidebar Overlay */}
+      <AnimatePresence>
+        {isSidebarOpen && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsSidebarOpen(false)}
+            className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-40 print:hidden"
+          />
+        )}
+      </AnimatePresence>
+
       {/* Sidebar */}
       <motion.aside 
         initial={false}
-        animate={{ width: isSidebarOpen ? 280 : 80 }}
-        className="bg-slate-900 text-white flex flex-col shadow-xl z-20 print:hidden"
+        animate={{ x: isSidebarOpen ? 0 : '-100%' }}
+        className="fixed top-0 left-0 w-[280px] h-full bg-slate-900 text-white flex flex-col shadow-2xl z-50 print:hidden"
       >
-        <div className={`p-6 flex items-start ${isSidebarOpen ? 'justify-between' : 'justify-center'} border-b border-slate-800`}>
-          {isSidebarOpen && (
-            <motion.div 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="flex flex-col"
-            >
-              <div className="font-bold text-[17px] tracking-tight text-white leading-tight break-words max-w-[190px]">
-                {user.institution_name || 'AIMSARC'}
-              </div>
-              <div className="text-[12px] text-slate-400 mt-1.5 leading-none">
-                Powered by
-              </div>
-              <div className="text-[14px] font-bold text-emerald-400 leading-tight">
-                MedCueAI
-              </div>
-            </motion.div>
-          )}
-          <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className={`p-1 hover:bg-slate-800 rounded ${isSidebarOpen ? '-mr-2' : ''}`}>
-            {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
+        <div className="p-6 flex items-start justify-between border-b border-slate-800">
+          <div className="flex flex-col">
+            <div className="font-bold text-[17px] tracking-tight text-white leading-tight break-words max-w-[190px]">
+              {user.institution_name || 'AIMSARC'}
+            </div>
+            <div className="text-[12px] text-slate-400 mt-1.5 leading-none">
+              Powered by
+            </div>
+            <div className="text-[14px] font-bold text-emerald-400 leading-tight">
+              MedCueAI
+            </div>
+          </div>
+          <button onClick={() => setIsSidebarOpen(false)} className="p-1 hover:bg-slate-800 rounded -mr-2">
+            <X size={20} />
           </button>
         </div>
 
@@ -235,7 +241,7 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
                 } ${item.isIndented ? 'ml-6' : ''}`}
               >
                 {item.icon && <item.icon size={22} className="min-w-[22px]" />}
-                {isSidebarOpen && <span className={`${item.icon ? 'ml-4' : ''} font-medium text-sm`}>{item.name}</span>}
+                <span className={`${item.icon ? 'ml-4' : ''} font-medium text-sm`}>{item.name}</span>
               </Link>
             );
           })}
@@ -246,16 +252,14 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
             <div className="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white">
               {user.name === 'Pharmacology Admin' ? 'M' : user.name[0]}
             </div>
-            {isSidebarOpen && (
-              <div className="ml-3 overflow-hidden">
-                <p className="text-sm font-semibold truncate">
-                  {user.name === 'Pharmacology Admin' ? 'MedCueAI' : user.name}
-                </p>
-                <p className="text-xs text-slate-500 truncate">
-                  {user.role === 'MASTER_ADMIN' ? 'Super Admin' : user.role}
-                </p>
-              </div>
-            )}
+            <div className="ml-3 overflow-hidden">
+              <p className="text-sm font-semibold truncate">
+                {user.name === 'Pharmacology Admin' ? 'MedCueAI' : user.name}
+              </p>
+              <p className="text-xs text-slate-500 truncate">
+                {user.role === 'MASTER_ADMIN' ? 'Super Admin' : user.role}
+              </p>
+            </div>
           </div>
           
           {['Pharmacology Admin', 'INSTITUTION_ADMIN', 'MASTER_ADMIN'].includes(user.role) && (
@@ -268,7 +272,21 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
               }`}
             >
               <Users size={20} className="min-w-[20px]" />
-              {isSidebarOpen && <span className="ml-4 font-medium text-sm">SuperAdmin User Management</span>}
+              <span className="ml-4 font-medium text-sm">SuperAdmin User Management</span>
+            </Link>
+          )}
+
+          {user.role === 'MASTER_ADMIN' && (
+            <Link
+              to="/medical-colleges"
+              className={`w-full flex items-center p-3 mb-2 rounded-xl transition-all duration-200 ${
+                location.pathname === '/medical-colleges'
+                  ? 'bg-emerald-500/10 text-emerald-400' 
+                  : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+              }`}
+            >
+              <Building size={20} className="min-w-[20px]" />
+              <span className="ml-4 font-medium text-sm">List of Medical Colleges</span>
             </Link>
           )}
 
@@ -277,17 +295,26 @@ const MainLayout = ({ user, onLogout }: { user: User, onLogout: () => void }) =>
             className="w-full flex items-center p-3 text-slate-400 hover:text-red-400 hover:bg-red-400/10 rounded-xl transition-colors"
           >
             <LogOut size={20} />
-            {isSidebarOpen && <span className="ml-4 font-medium text-sm">Logout</span>}
+            <span className="ml-4 font-medium text-sm">Logout</span>
           </button>
         </div>
       </motion.aside>
 
       {/* Main Content */}
-      <main className="flex-1 min-w-0 overflow-y-auto overflow-x-hidden relative print:overflow-visible print:h-auto print:block">
+      <main className="flex-1 min-w-0 overflow-y-auto overflow-x-hidden relative print:overflow-visible print:h-auto print:block w-full">
         <header className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-slate-200 z-10 px-8 py-4 flex justify-between items-center print:hidden">
-          <h1 className="text-xl font-semibold text-slate-800">
-            {navItems.find(i => i.path === location.pathname)?.name || 'Dashboard'}
-          </h1>
+          <div className="flex items-center">
+            <button 
+              onClick={() => setIsSidebarOpen(true)}
+              className="mr-6 px-4 py-2 bg-slate-900 border border-slate-700 text-slate-200 hover:text-white hover:bg-slate-800 rounded-xl flex items-center space-x-2 transition-colors shadow-sm"
+            >
+              <Menu size={18} />
+              <span className="font-medium text-sm">Categories</span>
+            </button>
+            <h1 className="text-xl font-semibold text-slate-800">
+              {navItems.find(i => i.path === location.pathname)?.name || 'Dashboard'}
+            </h1>
+          </div>
           <div className="flex items-center space-x-4">
             <SocialShareButton compact />
             <span className="text-sm text-slate-500">{new Date().toLocaleDateString()}</span>

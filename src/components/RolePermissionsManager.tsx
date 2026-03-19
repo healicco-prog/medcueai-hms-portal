@@ -1,20 +1,62 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Loader2, Save, Check } from 'lucide-react';
+import { Shield, Loader2, Save, Check, ChevronRight } from 'lucide-react';
 
-const availableFeatures = [
-  'Dashboard',
-  'Pharmacovigilance',
-  'Prescription Upload',
-  'Prescription Audit',
-  'Prescription Audit Report',
-  'Medication Error Audit',
-  'Digital Prescription System',
-  'Patient Triage',
-  'CDS tools',
-  'Formulary Upload',
-  'Formulary Check',
-  'Data Upload'
+// Categorized feature structure matching sidebar navigation
+const featureCategories = [
+  { category: null, features: ['Dashboard'] },
+  { 
+    category: 'Pharma Vigi', 
+    color: 'text-red-500 bg-red-50 border-red-200',
+    features: ['Pharmacovigilance'] 
+  },
+  { 
+    category: 'Presc Audit', 
+    color: 'text-blue-500 bg-blue-50 border-blue-200',
+    features: ['Prescription Upload', 'Prescription Audit', 'Prescription Audit Report'] 
+  },
+  { 
+    category: 'Med Error', 
+    color: 'text-amber-600 bg-amber-50 border-amber-200',
+    features: ['Med Error Prescription Upload', 'Med Error Prescription Audit', 'Medication Error Audit'] 
+  },
+  { 
+    category: 'Practice Management System', 
+    color: 'text-purple-500 bg-purple-50 border-purple-200',
+    features: ['Digital Prescription System', 'Patient Triage', 'CDS tools'] 
+  },
+  { 
+    category: 'Pharmacy MS', 
+    color: 'text-emerald-600 bg-emerald-50 border-emerald-200',
+    features: ['Formulary Upload', 'Formulary Check'] 
+  },
+  { 
+    category: 'Institute Admin Features', 
+    color: 'text-indigo-500 bg-indigo-50 border-indigo-200',
+    features: ['Data Upload', 'Institute Admin User Management'] 
+  },
 ];
+
+// Flat list of all feature keys (used for permission storage)
+const allFeatureKeys = featureCategories.flatMap(c => c.features);
+
+// Display labels for features (short names for table)
+const featureDisplayLabels: Record<string, string> = {
+  'Dashboard': 'Dashboard',
+  'Pharmacovigilance': 'Pharmacovigilance System',
+  'Prescription Upload': 'Prescription Upload',
+  'Prescription Audit': 'Prescription Audit',
+  'Prescription Audit Report': 'Prescription Audit Report',
+  'Med Error Prescription Upload': 'Prescription Upload',
+  'Med Error Prescription Audit': 'Prescription Audit',
+  'Medication Error Audit': 'Medication Error Audit',
+  'Digital Prescription System': 'Digi Presc',
+  'Patient Triage': 'Patient Triage',
+  'CDS tools': 'CDS Tools',
+  'Formulary Upload': 'Formulary Upload',
+  'Formulary Check': 'Formulary Check',
+  'Data Upload': 'Data Upload',
+  'Institute Admin User Management': 'Institute Admin User Mgmt',
+};
 
 const rolesList = [
   'MASTER_ADMIN',
@@ -76,6 +118,20 @@ const RolePermissionsManager = () => {
     });
   };
 
+  const handleToggleCategory = (role: string, categoryFeatures: string[]) => {
+    setPermissions(prev => {
+      const currentRolePerms = prev[role] || [];
+      const allEnabled = categoryFeatures.every(f => currentRolePerms.includes(f));
+      let newPerms: string[];
+      if (allEnabled) {
+        newPerms = currentRolePerms.filter(f => !categoryFeatures.includes(f));
+      } else {
+        newPerms = [...new Set([...currentRolePerms, ...categoryFeatures])];
+      }
+      return { ...prev, [role]: newPerms };
+    });
+  };
+
   const handleSave = async () => {
     setSaving(true);
     try {
@@ -122,58 +178,96 @@ const RolePermissionsManager = () => {
         </button>
       </div>
 
-      <div className="overflow-auto custom-scrollbar max-h-[65vh] border border-slate-200 rounded-xl">
-        <table className="w-full text-left border-collapse min-w-[800px] relative">
+      <div className="overflow-auto custom-scrollbar max-h-[70vh] border border-slate-200 rounded-xl">
+        <table className="w-full text-left border-collapse relative">
+          {/* Column-grouped header */}
           <thead>
-            <tr>
-              <th className="py-4 px-4 text-sm font-semibold text-slate-500 w-1/4 sticky left-0 top-0 bg-slate-50 z-30 border-b border-r border-slate-200 shadow-sm">Role Name</th>
-              {availableFeatures.map(f => (
-                <th key={f} className="px-2 text-xs font-semibold text-slate-500 align-bottom sticky top-0 bg-slate-50 z-20 border-b border-slate-200 shadow-sm h-[220px] min-w-[100px] w-[100px]">
-                  <div className="relative w-full h-full">
-                    <span className="absolute bottom-4 left-1/2 origin-bottom-left -rotate-45 whitespace-nowrap -translate-x-[5px]">
-                      {f}
-                    </span>
-                  </div>
+            {/* Category header row */}
+            <tr className="sticky top-0 z-20">
+              <th rowSpan={2} className="py-4 px-4 text-sm font-semibold text-slate-500 w-[200px] min-w-[200px] sticky left-0 top-0 bg-slate-50 z-30 border-b border-r border-slate-200 shadow-sm align-bottom">
+                Role Name
+              </th>
+              {featureCategories.map((cat, catIdx) => (
+                <th 
+                  key={catIdx}
+                  colSpan={cat.features.length}
+                  className={`py-2 px-2 text-center text-xs font-bold uppercase tracking-wider border-b border-slate-200 ${
+                    cat.category ? (cat.color || 'text-slate-600 bg-slate-50') : 'bg-slate-50 text-slate-600'
+                  } ${catIdx > 0 ? 'border-l-2 border-l-slate-300' : ''}`}
+                >
+                  {cat.category || 'General'}
                 </th>
               ))}
             </tr>
+            {/* Feature sub-header row */}
+            <tr className="sticky top-[37px] z-20">
+              {featureCategories.map((cat, catIdx) => 
+                cat.features.map((f, fIdx) => (
+                  <th 
+                    key={f} 
+                    className={`px-1 py-2 text-[10px] font-semibold text-slate-500 text-center bg-slate-50 border-b border-slate-200 min-w-[90px] w-[90px] ${
+                      catIdx > 0 && fIdx === 0 ? 'border-l-2 border-l-slate-300' : fIdx > 0 ? 'border-l border-l-slate-100' : ''
+                    }`}
+                  >
+                    <div className="leading-tight">{featureDisplayLabels[f] || f}</div>
+                  </th>
+                ))
+              )}
+            </tr>
           </thead>
           <tbody>
-            {rolesList.map(role => (
-              <tr key={role} className="border-b border-slate-100 hover:bg-slate-50 transition-colors group">
-                <td className="py-3 px-4 font-bold text-slate-700 sticky left-0 group-hover:bg-slate-50 bg-white transition-colors z-10 border-r border-slate-100 shadow-[1px_0_0_0_rgba(0,0,0,0.05)]">
-                  {role}
-                </td>
-                {availableFeatures.map(feature => {
-                  const hasFeature = (permissions[role] || []).includes(feature);
-                  
-                  // Disable editing for master admins
-                  const isMasterAdmin = role === 'MASTER_ADMIN';
-                  // Disable editing for institution admins if current user is not master admin
-                  const isInstAdmin = role === 'INSTITUTION_ADMIN';
-                  const isDisabled = isMasterAdmin || (isInstAdmin && currentUserRole !== 'MASTER_ADMIN');
-                  
-                  return (
-                    <td key={feature} className="py-3 px-2 text-center align-middle">
-                      <label className={`inline-flex items-center justify-center w-6 h-6 rounded border cursor-pointer transition-colors ${
-                        hasFeature ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white border-slate-300'
-                      } ${isDisabled ? 'opacity-50 cursor-not-allowed' : 'hover:border-emerald-500'}`}>
-                        <input
-                          type="checkbox"
-                          className="hidden"
-                          checked={hasFeature || isMasterAdmin}
-                          disabled={isDisabled}
-                          onChange={() => handleToggle(role, feature)}
-                        />
-                        {(hasFeature || isMasterAdmin) && <Check size={14} strokeWidth={3} />}
-                      </label>
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
+            {rolesList.map(role => {
+              const isMasterAdmin = role === 'MASTER_ADMIN';
+              const isInstAdmin = role === 'INSTITUTION_ADMIN';
+              const isDisabled = isMasterAdmin || (isInstAdmin && currentUserRole !== 'MASTER_ADMIN');
+
+              return (
+                <tr key={role} className="border-b border-slate-100 hover:bg-slate-50/80 transition-colors group">
+                  <td className="py-3 px-4 font-bold text-slate-700 text-sm sticky left-0 group-hover:bg-slate-50 bg-white transition-colors z-10 border-r border-slate-100 shadow-[1px_0_0_0_rgba(0,0,0,0.05)] whitespace-nowrap">
+                    {role === 'MASTER_ADMIN' ? '🛡️ MASTER ADMIN' : role === 'INSTITUTION_ADMIN' ? '🏛️ INSTITUTION ADMIN' : role}
+                  </td>
+                  {featureCategories.map((cat, catIdx) => 
+                    cat.features.map((feature, fIdx) => {
+                      const hasFeature = (permissions[role] || []).includes(feature);
+                      return (
+                        <td 
+                          key={feature} 
+                          className={`py-3 px-1 text-center align-middle ${
+                            catIdx > 0 && fIdx === 0 ? 'border-l-2 border-l-slate-200' : fIdx > 0 ? 'border-l border-l-slate-50' : ''
+                          }`}
+                        >
+                          <label className={`inline-flex items-center justify-center w-7 h-7 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                            (hasFeature || isMasterAdmin) 
+                              ? 'bg-emerald-500 border-emerald-500 text-white shadow-sm shadow-emerald-500/30' 
+                              : 'bg-white border-slate-200 hover:border-emerald-400 hover:bg-emerald-50'
+                          } ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}`}>
+                            <input
+                              type="checkbox"
+                              className="hidden"
+                              checked={hasFeature || isMasterAdmin}
+                              disabled={isDisabled}
+                              onChange={() => handleToggle(role, feature)}
+                            />
+                            {(hasFeature || isMasterAdmin) && <Check size={14} strokeWidth={3} />}
+                          </label>
+                        </td>
+                      );
+                    })
+                  )}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
+      </div>
+      
+      {/* Legend */}
+      <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-500">
+        {featureCategories.filter(c => c.category).map((cat) => (
+          <span key={cat.category} className={`px-2 py-1 rounded-lg border ${cat.color}`}>
+            {cat.category}
+          </span>
+        ))}
       </div>
     </div>
   );

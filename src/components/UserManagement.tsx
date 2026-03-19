@@ -229,6 +229,7 @@ const UserManagement = ({ user: currentUser }: { user: User }) => {
             <thead>
               <tr className="border-b border-slate-100">
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Staff Info</th>
+                <th className="py-4 px-4 text-sm font-semibold text-slate-500">Institution</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Department</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Role</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Status</th>
@@ -237,7 +238,7 @@ const UserManagement = ({ user: currentUser }: { user: User }) => {
             </thead>
             <tbody>
               {loading ? (
-                <tr><td colSpan={5} className="py-8 text-center text-slate-400">Loading users...</td></tr>
+                <tr><td colSpan={6} className="py-8 text-center text-slate-400">Loading users...</td></tr>
               ) : users.map((u) => (
                 <tr key={u.id} className="border-b border-slate-50 hover:bg-slate-50 transition-colors">
                   <td className="py-4 px-4">
@@ -251,6 +252,7 @@ const UserManagement = ({ user: currentUser }: { user: User }) => {
                       </div>
                     </div>
                   </td>
+                  <td className="py-4 px-4 text-slate-600 text-sm font-medium">{u.institution_name || '-'}</td>
                   <td className="py-4 px-4 text-slate-600 text-sm">{u.department}</td>
                   <td className="py-4 px-4">
                     <select 

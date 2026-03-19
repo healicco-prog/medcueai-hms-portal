@@ -229,6 +229,7 @@ const UserManagementMasterAdmin = ({ user: currentUser }: { user: User }) => {
             <thead>
               <tr className="border-b border-slate-100">
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Staff Info</th>
+                <th className="py-4 px-4 text-sm font-semibold text-slate-500">Institution</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Department</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Role</th>
                 <th className="py-4 px-4 text-sm font-semibold text-slate-500">Status</th>
@@ -237,10 +238,10 @@ const UserManagementMasterAdmin = ({ user: currentUser }: { user: User }) => {
             </thead>
             <tbody>
               {loading ? (
-                <tr><td colSpan={5} className="py-8 text-center text-slate-400">Loading users...</td></tr>
+                <tr><td colSpan={6} className="py-8 text-center text-slate-400">Loading users...</td></tr>
               ) : users.filter(u => u.role !== 'MASTER_ADMIN').length === 0 ? (
                 <tr>
-                  <td colSpan={5} className="py-16 text-center text-slate-500">
+                  <td colSpan={6} className="py-16 text-center text-slate-500">
                     <div className="flex flex-col items-center justify-center space-y-3">
                       <Users size={32} className="text-slate-300" />
                       <p className="font-medium text-lg text-slate-600">No staff accounts found</p>
@@ -261,6 +262,7 @@ const UserManagementMasterAdmin = ({ user: currentUser }: { user: User }) => {
                       </div>
                     </div>
                   </td>
+                  <td className="py-4 px-4 text-slate-600 text-sm font-medium">{u.institution_name || '-'}</td>
                   <td className="py-4 px-4 text-slate-600 text-sm">{u.department}</td>
                   <td className="py-4 px-4">
                     <select 

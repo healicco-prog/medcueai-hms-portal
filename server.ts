@@ -157,8 +157,13 @@ app.get("/api/users", authenticateToken, async (req: any, res) => {
   if (!['MASTER_ADMIN', 'Institute Admin', 'Pharmacology Admin', 'Admin-Pharmacology'].includes(req.user.role)) {
     return res.sendStatus(403);
   }
-  const { data, error } = await supabase.from('users').select('id, name, username, mobile, email, role, status, department, designation');
-  res.json(data || []);
+  const { data, error } = await supabase.from('users').select('id, name, username, mobile, email, role, status, department, designation, institution_id, institutions(name)');
+  
+  const mappedData = (data || []).map((u: any) => ({
+    ...u,
+    institution_name: u.institutions?.name || null
+  }));
+  res.json(mappedData);
 });
 
 app.post("/api/users", authenticateToken, async (req: any, res) => {
