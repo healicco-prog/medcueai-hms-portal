@@ -1,0 +1,25 @@
+# Node
+node_modules/
+
+# Database
+*.db
+
+# Misc
+*.md
+*.sql
+migrate-data.ts
+hashes.json
+
+# Git
+.git/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+.testsprite/

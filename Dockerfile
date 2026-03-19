@@ -1,23 +1,39 @@
-FROM node:20-slim
-
-# Install build tools for better-sqlite3 native module
-RUN apt-get update && apt-get install -y python3 make g++ && rm -rf /var/lib/apt/lists/*
+FROM node:20-slim AS builder
 
 WORKDIR /app
 
-# Copy package files and install dependencies
-COPY package.json package-lock.json ./
-RUN npm ci --omit=dev
+# Copy package files and install ALL dependencies (including devDependencies for building)
+COPY package.json package-lock.json* ./
+RUN npm ci 2>/dev/null || npm install
 
-# Copy application code
-COPY server.ts tsconfig.json ./
+# Copy source code for building frontend
+COPY index.html ./
+COPY vite.config.ts ./
+COPY tsconfig.json ./
 COPY src/ ./src/
-COPY index.html vite.config.ts ./
 
-# Build frontend
+# Set env var needed at build time by vite.config.ts
+ARG GEMINI_API_KEY=""
+ENV GEMINI_API_KEY=${GEMINI_API_KEY}
+
+# Build the frontend
 RUN npx vite build
 
-# Set environment
+# --- Production stage ---
+FROM node:20-slim
+
+WORKDIR /app
+
+COPY package.json package-lock.json* ./
+RUN npm ci --omit=dev 2>/dev/null || npm install --omit=dev
+RUN npm install tsx
+
+# Copy server  
+COPY server.ts ./
+
+# Copy built frontend from builder stage
+COPY --from=builder /app/dist ./dist
+
 ENV NODE_ENV=production
 ENV PORT=8080
 
